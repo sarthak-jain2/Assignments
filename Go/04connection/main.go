@@ -106,7 +106,7 @@ func main() {
 						{"Lastname", lname},
 						{"Email", email},
 						{"State", state},
-						{"Company", "Persistent"},
+						{"Company", "MYday"},
 					}
 
 					insertOne(client, ctx, "User", "users", data)

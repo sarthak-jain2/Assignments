@@ -96,9 +96,9 @@ func main() {
 			data = bson.D{
 				{"Firstname", "Shaun"},
 				{"Lastname", "Jain"},
-				{"Email", "shaun_jain@persistent.com"},
+				{"Email", "shaun_jain@myday.com"},
 				{"State", "MP"},
-				{"Company", "Persistent"},
+				{"Company", "MYday"},
 			}
 
 			insertOne(client, ctx, "User", "users", data)
